@@ -40,6 +40,7 @@ print("Index of data array " + str(data[index_of_frequency_array]))
 
 print("Calculated median is approximately " + str(data[calculated_median_index]))
 print("Median through library is " + str(statistics.median(data)))
+print("Median low is " + str(statistics.median_low(data)))
 
     
     
